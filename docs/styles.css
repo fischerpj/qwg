@@ -1,1 +1,21 @@
 /* css styles */
+/* Hide Giscus header */
+.giscus .gsc-header {
+  display: none !important;
+}
+
+/* Hide metadata like timestamps */
+.giscus .gsc-comment-header {
+  display: none !important;
+}
+
+/* Hide the Quarto-generated Comments heading */
+#comments h2, 
+#comments .comments-title {
+  display: none !important;
+}
+
+/* Hide the Giscus reactions bar when it shows "0 reactions" */
+.giscus .gsc-reactions {
+  display: none !important;
+}
